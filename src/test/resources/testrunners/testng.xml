@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" verbose="1" thread-count="5">
+
+	<parameter name="mobile" value="7799096333"/>
+	<parameter name="email" value="anvardhan551@gmail.com"/>
+	<parameter name="password" value="Pnbe@305"/>
+
+	<listeners>
+		<listener class-name="com.qa.app.listeners.RetryIAnnotationTransformerListener"></listener>
+		<listener class-name="com.qa.app.listeners.ExtentReportListener"></listener>
+	</listeners>
+	
+	<suite-files>
+		<suite-file path="testng1.xml"></suite-file>
+		<suite-file path="testng2.xml"></suite-file>
+	</suite-files>
+
+</suite> <!-- TestSuite1 -->

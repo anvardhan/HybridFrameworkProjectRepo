@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite1" verbose="1" thread-count="5">
+
+	<parameter name="mobile" value="7799096333"/>
+	<parameter name="email" value="anvardhan551@gmail.com"/>
+	<parameter name="password" value="Pnbe@305"/>
+
+	<listeners>
+		<listener class-name="com.qa.app.listeners.RetryIAnnotationTransformerListener"></listener>
+		<listener class-name="com.qa.app.listeners.ExtentReportListener"></listener>
+	</listeners>
+
+	<test name="App1Test">
+
+		<groups>
+
+			<define name="runall">
+				<include name="sanity" />
+				<include name="regression" />
+			</define>
+
+			<run>
+				<include name="runall"></include>
+			</run>
+
+		</groups>
+
+		<classes>
+			<class name="com.qa.tests.FinologyHomeTest" />
+			<class name="com.qa.tests.FinologyLoginTest" />
+		</classes>
+
+	</test> <!-- App1Test -->
+
+
+</suite> <!-- TestSuite1 -->

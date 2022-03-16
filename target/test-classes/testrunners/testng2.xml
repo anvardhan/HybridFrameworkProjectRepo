@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite2" verbose="1" thread-count="5">
+
+	<test name="App2Test">
+
+		<groups>
+
+			<define name="runall">
+				<include name="sanity" />
+				<include name="regression" />
+			</define>
+
+			<run>
+				<include name="runall"></include>
+			</run>
+
+		</groups>
+
+		<classes>			
+			<class name="com.qa.tests.FinologyTickerTest" />
+			<class name="com.qa.tests.FinologySelectTest" />
+		</classes>
+		
+	</test> <!-- App2Test -->
+
+
+</suite> <!-- TestSuite2 -->

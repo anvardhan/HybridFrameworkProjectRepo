@@ -1,0 +1,12 @@
+drop table if exists ItemTable;
+create table ItemTable(id int auto_increment primary key,name varchar(26)not null,quantity int not null,price int not null);
+insert into ItemTable(name,quantity,price) values ('shirts',10,500);
+insert into ItemTable(name,quantity,price) values ('pants',15,300);
+insert into ItemTable(name,quantity,price) values ('Cricket Bats',35,1500);
+insert into ItemTable(name,quantity,price) values ('BDM Cricket Balls',100,300);
+insert into ItemTable(name,quantity,price) values ('Batsman Pads',150,600);
+insert into ItemTable(name,quantity,price) values ('Hand Glouse',250,400);
+insert into ItemTable(name,quantity,price) values ('Keeper pads',250,400);
+insert into ItemTable(name,quantity,price) values ('Hand pads',150,300);
+insert into ItemTable(name,quantity,price) values ('Cups',40,70);
+insert into ItemTable(name,quantity,price) values ('MyItem',4000,7000);

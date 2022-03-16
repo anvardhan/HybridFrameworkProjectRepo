@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="20" retried="3" total="41" passed="16">
+  <reporter-output>
+    <line>
+      <![CDATA[This Test is to validate ticker App url which is a new window]]>
+    </line>
+    <line>
+      <![CDATA[Fail - Finology Url is NOT as expected]]>
+    </line>
+    <line>
+      <![CDATA[This Test is to validate ticker App url which is a new window]]>
+    </line>
+    <line>
+      <![CDATA[Fail - Finology Url is NOT as expected]]>
+    </line>
+    <line>
+      <![CDATA[This isiteration1of this test]]>
+    </line>
+    <line>
+      <![CDATA[This isiteration2of this test]]>
+    </line>
+    <line>
+      <![CDATA[This isiteration1of this test]]>
+    </line>
+    <line>
+      <![CDATA[This isiteration1of this test]]>
+    </line>
+    <line>
+      <![CDATA[This isiteration2of this test]]>
+    </line>
+    <line>
+      <![CDATA[This isiteration2of this test]]>
+    </line>
+    <line>
+      <![CDATA[This isiteration1of this test]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="0" started-at="2022-03-15T22:47:38 CDT" finished-at="2022-03-15T22:47:38 CDT">
+    <groups>
+    </groups>
+  </suite> <!-- TestSuite -->
+  <suite name="TestSuite2" duration-ms="224854" started-at="2022-03-15T22:43:53 CDT" finished-at="2022-03-15T22:47:38 CDT">
+    <groups>
+      <group name="regression">
+        <method signature="FinologySelectTest.SelectProduct_validateSelectLogo()[pri:1, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="SelectProduct_validateSelectLogo" class="com.qa.tests.FinologySelectTest"/>
+        <method signature="FinologySelectTest.validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="validateBrokerageRateAndAmount_Calculators" class="com.qa.tests.FinologySelectTest"/>
+        <method signature="FinologyTickerTest.tickerProduct_getHighestPrice_Sector()[pri:2, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="tickerProduct_getHighestPrice_Sector" class="com.qa.tests.FinologyTickerTest"/>
+        <method signature="FinologyTickerTest.tickerProduct_getPriceForListedCompanies_Sector_Parameterized()[pri:3, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="tickerProduct_getPriceForListedCompanies_Sector_Parameterized" class="com.qa.tests.FinologyTickerTest"/>
+        <method signature="FinologyTickerTest.tickerProduct_validateTickerLogo()[pri:1, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="tickerProduct_validateTickerLogo" class="com.qa.tests.FinologyTickerTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="FinologySelectTest.SelectProduct_validateSelectLogo()[pri:1, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="SelectProduct_validateSelectLogo" class="com.qa.tests.FinologySelectTest"/>
+        <method signature="FinologyTickerTest.tickerProduct_validateTickerLogo()[pri:1, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="tickerProduct_validateTickerLogo" class="com.qa.tests.FinologyTickerTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="App2Test" duration-ms="224854" started-at="2022-03-15T22:43:53 CDT" finished-at="2022-03-15T22:47:38 CDT">
+      <class name="com.qa.tests.FinologyTickerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="setUp" is-config="true" duration-ms="7207" started-at="2022-03-15T22:43:53 CDT" finished-at="2022-03-15T22:44:01 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tickerProduct_validateTickerLogo()[pri:1, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="tickerProduct_validateTickerLogo" duration-ms="6329" started-at="2022-03-15T22:44:01 CDT" finished-at="2022-03-15T22:44:07 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tickerProduct_validateTickerLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="tearDown" is-config="true" duration-ms="4152" started-at="2022-03-15T22:44:07 CDT" finished-at="2022-03-15T22:44:11 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="setUp" is-config="true" duration-ms="6642" started-at="2022-03-15T22:44:11 CDT" finished-at="2022-03-15T22:44:18 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tickerProduct_getHighestPrice_Sector()[pri:2, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="tickerProduct_getHighestPrice_Sector" duration-ms="21556" started-at="2022-03-15T22:44:18 CDT" finished-at="2022-03-15T22:44:39 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tickerProduct_getHighestPrice_Sector -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="tearDown" is-config="true" duration-ms="4134" started-at="2022-03-15T22:44:39 CDT" finished-at="2022-03-15T22:44:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="setUp" is-config="true" duration-ms="7346" started-at="2022-03-15T22:44:44 CDT" finished-at="2022-03-15T22:44:51 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tickerProduct_getPriceForListedCompanies_Sector_Parameterized()[pri:3, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="tickerProduct_getPriceForListedCompanies_Sector_Parameterized" duration-ms="24283" started-at="2022-03-15T22:44:51 CDT" finished-at="2022-03-15T22:45:15 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tickerProduct_getPriceForListedCompanies_Sector_Parameterized -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyTickerTest@74e52303]" name="tearDown" is-config="true" duration-ms="4130" started-at="2022-03-15T22:45:15 CDT" finished-at="2022-03-15T22:45:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.FinologyTickerTest -->
+      <class name="com.qa.tests.FinologySelectTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="setUp" is-config="true" duration-ms="6644" started-at="2022-03-15T22:45:19 CDT" finished-at="2022-03-15T22:45:26 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SelectProduct_validateBrokersCount()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="SelectProduct_validateBrokersCount" duration-ms="9950" started-at="2022-03-15T22:45:26 CDT" finished-at="2022-03-15T22:45:36 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectProduct_validateBrokersCount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="tearDown" is-config="true" duration-ms="4124" started-at="2022-03-15T22:45:36 CDT" finished-at="2022-03-15T22:45:40 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="setUp" is-config="true" duration-ms="6686" started-at="2022-03-15T22:45:40 CDT" finished-at="2022-03-15T22:45:47 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SelectProduct_validateSelectLogo()[pri:1, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="SelectProduct_validateSelectLogo" duration-ms="7158" started-at="2022-03-15T22:45:47 CDT" finished-at="2022-03-15T22:45:54 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectProduct_validateSelectLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="tearDown" is-config="true" duration-ms="4130" started-at="2022-03-15T22:45:54 CDT" finished-at="2022-03-15T22:45:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="setUp" is-config="true" duration-ms="6743" started-at="2022-03-15T22:45:58 CDT" finished-at="2022-03-15T22:46:05 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="15385" started-at="2022-03-15T22:46:05 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-15T22:46:21 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ICICIDirect Neo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokerageRateAndAmount_Calculators -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="tearDown" is-config="true" duration-ms="4131" started-at="2022-03-15T22:46:21 CDT" finished-at="2022-03-15T22:46:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="setUp" is-config="true" duration-ms="6713" started-at="2022-03-15T22:46:25 CDT" finished-at="2022-03-15T22:46:31 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="15125" started-at="2022-03-15T22:46:31 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-15T22:46:46 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prime 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[250]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokerageRateAndAmount_Calculators -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="tearDown" is-config="true" duration-ms="4137" started-at="2022-03-15T22:46:46 CDT" finished-at="2022-03-15T22:46:51 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="setUp" is-config="true" duration-ms="6601" started-at="2022-03-15T22:46:51 CDT" finished-at="2022-03-15T22:46:57 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="15177" started-at="2022-03-15T22:46:57 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-15T22:47:12 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prepaid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[220]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokerageRateAndAmount_Calculators -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="tearDown" is-config="true" duration-ms="4133" started-at="2022-03-15T22:47:12 CDT" finished-at="2022-03-15T22:47:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="setUp" is-config="true" duration-ms="6641" started-at="2022-03-15T22:47:17 CDT" finished-at="2022-03-15T22:47:23 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="15060" started-at="2022-03-15T22:47:23 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-15T22:47:38 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prime 4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokerageRateAndAmount_Calculators -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@47af7f3d]" name="tearDown" is-config="true" duration-ms="100" started-at="2022-03-15T22:47:38 CDT" finished-at="2022-03-15T22:47:38 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.FinologySelectTest -->
+    </test> <!-- App2Test -->
+  </suite> <!-- TestSuite2 -->
+  <suite name="TestSuite1" duration-ms="281012" started-at="2022-03-15T22:39:12 CDT" finished-at="2022-03-15T22:43:53 CDT">
+    <groups>
+      <group name="regression">
+        <method signature="FinologyHomeTest.selectProduct_validateSelectUrl()[pri:2, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="selectProduct_validateSelectUrl" class="com.qa.tests.FinologyHomeTest"/>
+      </group> <!-- regression -->
+      <group name="regresiion">
+        <method signature="FinologyLoginTest.finologyLoginByPhoneTest(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByPhoneTest" class="com.qa.tests.FinologyLoginTest"/>
+      </group> <!-- regresiion -->
+      <group name="sanity">
+        <method signature="FinologyHomeTest.selectProduct_validateSelectUrl()[pri:2, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="selectProduct_validateSelectUrl" class="com.qa.tests.FinologyHomeTest"/>
+        <method signature="FinologyHomeTest.tickerProduct_validateTickerUrl()[pri:1, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="tickerProduct_validateTickerUrl" class="com.qa.tests.FinologyHomeTest"/>
+        <method signature="FinologyLoginTest.finologyLoginByEmail_EmailDuplicateTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByEmail_EmailDuplicateTest" class="com.qa.tests.FinologyLoginTest"/>
+        <method signature="FinologyLoginTest.finologyLoginByEmail_EmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByEmail_EmailTest" class="com.qa.tests.FinologyLoginTest"/>
+        <method signature="FinologyLoginTest.finologyLoginByPhoneTest(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByPhoneTest" class="com.qa.tests.FinologyLoginTest"/>
+      </group> <!-- sanity -->
+      <group name="mandatory">
+        <method signature="FinologyHomeTest.tickerProduct_validateTickerUrl()[pri:1, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="tickerProduct_validateTickerUrl" class="com.qa.tests.FinologyHomeTest"/>
+        <method signature="FinologyLoginTest.finologyLoginByEmail_EmailDuplicateTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByEmail_EmailDuplicateTest" class="com.qa.tests.FinologyLoginTest"/>
+        <method signature="FinologyLoginTest.finologyLoginByEmail_EmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByEmail_EmailTest" class="com.qa.tests.FinologyLoginTest"/>
+        <method signature="FinologyLoginTest.finologyLoginByPhoneTest(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByPhoneTest" class="com.qa.tests.FinologyLoginTest"/>
+      </group> <!-- mandatory -->
+    </groups>
+    <test name="App1Test" duration-ms="281012" started-at="2022-03-15T22:39:12 CDT" finished-at="2022-03-15T22:43:53 CDT">
+      <class name="com.qa.tests.FinologyHomeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="setUp" is-config="true" duration-ms="17751" started-at="2022-03-15T22:39:12 CDT" finished-at="2022-03-15T22:39:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="tickerProduct_validateTickerUrl()[pri:1, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="tickerProduct_validateTickerUrl" duration-ms="7280" retried="true" started-at="2022-03-15T22:39:30 CDT" description="This test is to validate Ticker App url" finished-at="2022-03-15T22:39:37 CDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Finology url is not as expected:  expected [https://www.finology.in/] but found [https://www.finology.india/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Finology url is not as expected:  expected [https://www.finology.in/] but found [https://www.finology.india/]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.tests.FinologyHomeTest.tickerProduct_validateTickerUrl(FinologyHomeTest.java:114)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[This Test is to validate ticker App url which is a new window]]>
+            </line>
+            <line>
+              <![CDATA[Fail - Finology Url is NOT as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tickerProduct_validateTickerUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="tearDown" is-config="true" duration-ms="4131" started-at="2022-03-15T22:39:37 CDT" finished-at="2022-03-15T22:39:42 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="setUp" is-config="true" duration-ms="7375" started-at="2022-03-15T22:39:42 CDT" finished-at="2022-03-15T22:39:49 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="tickerProduct_validateTickerUrl()[pri:1, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="tickerProduct_validateTickerUrl" duration-ms="6150" started-at="2022-03-15T22:39:49 CDT" description="This test is to validate Ticker App url" finished-at="2022-03-15T22:39:55 CDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Finology url is not as expected:  expected [https://www.finology.in/] but found [https://www.finology.india/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Finology url is not as expected:  expected [https://www.finology.in/] but found [https://www.finology.india/]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.tests.FinologyHomeTest.tickerProduct_validateTickerUrl(FinologyHomeTest.java:114)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[This Test is to validate ticker App url which is a new window]]>
+            </line>
+            <line>
+              <![CDATA[Fail - Finology Url is NOT as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tickerProduct_validateTickerUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="tearDown" is-config="true" duration-ms="4106" started-at="2022-03-15T22:39:55 CDT" finished-at="2022-03-15T22:39:59 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="setUp" is-config="true" duration-ms="7248" started-at="2022-03-15T22:39:59 CDT" finished-at="2022-03-15T22:40:07 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="selectProduct_validateSelectUrl()[pri:2, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="selectProduct_validateSelectUrl" duration-ms="7889" retried="true" started-at="2022-03-15T22:40:07 CDT" description="This test is to validate Select App url" finished-at="2022-03-15T22:40:15 CDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Select url is not as expected:  expected [https://select.finology.in1/] but found [//https://select.finology.india/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Select url is not as expected:  expected [https://select.finology.in1/] but found [//https://select.finology.india/]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.tests.FinologyHomeTest.selectProduct_validateSelectUrl(FinologyHomeTest.java:167)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct_validateSelectUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="tearDown" is-config="true" duration-ms="4107" started-at="2022-03-15T22:40:15 CDT" finished-at="2022-03-15T22:40:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="setUp" is-config="true" duration-ms="8167" started-at="2022-03-15T22:40:19 CDT" finished-at="2022-03-15T22:40:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="selectProduct_validateSelectUrl()[pri:2, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="selectProduct_validateSelectUrl" duration-ms="7892" started-at="2022-03-15T22:40:27 CDT" description="This test is to validate Select App url" finished-at="2022-03-15T22:40:35 CDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Select url is not as expected:  expected [https://select.finology.in1/] but found [//https://select.finology.india/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Select url is not as expected:  expected [https://select.finology.in1/] but found [//https://select.finology.india/]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.tests.FinologyHomeTest.selectProduct_validateSelectUrl(FinologyHomeTest.java:167)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct_validateSelectUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyHomeTest@1ea9f6af]" name="tearDown" is-config="true" duration-ms="4110" started-at="2022-03-15T22:40:35 CDT" finished-at="2022-03-15T22:40:39 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.FinologyHomeTest -->
+      <class name="com.qa.tests.FinologyLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="setUp" is-config="true" duration-ms="6189" started-at="2022-03-15T22:40:39 CDT" finished-at="2022-03-15T22:40:45 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="finologyLoginByPhoneTest(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByPhoneTest" duration-ms="15536" started-at="2022-03-15T22:40:45 CDT" finished-at="2022-03-15T22:41:01 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7799096333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pnbe@305]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finologyLoginByPhoneTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="tearDown" is-config="true" duration-ms="4090" started-at="2022-03-15T22:41:01 CDT" finished-at="2022-03-15T22:41:05 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="setUp" is-config="true" duration-ms="7323" started-at="2022-03-15T22:41:05 CDT" finished-at="2022-03-15T22:41:12 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="finologyLoginByEmail_EmailDuplicateTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByEmail_EmailDuplicateTest" duration-ms="11818" started-at="2022-03-15T22:41:12 CDT" data-provider="credentials" finished-at="2022-03-15T22:41:24 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anvardhan551@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pnbe@305]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iteration1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This isiteration1of this test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finologyLoginByEmail_EmailDuplicateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="tearDown" is-config="true" duration-ms="4098" started-at="2022-03-15T22:41:24 CDT" finished-at="2022-03-15T22:41:28 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="setUp" is-config="true" duration-ms="6316" started-at="2022-03-15T22:41:28 CDT" finished-at="2022-03-15T22:41:35 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="finologyLoginByEmail_EmailDuplicateTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByEmail_EmailDuplicateTest" duration-ms="13760" started-at="2022-03-15T22:41:35 CDT" data-provider="credentials" finished-at="2022-03-15T22:41:48 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7799096333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pnbe@305]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iteration2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This isiteration2of this test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finologyLoginByEmail_EmailDuplicateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="tearDown" is-config="true" duration-ms="4152" started-at="2022-03-15T22:41:48 CDT" finished-at="2022-03-15T22:41:53 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="setUp" is-config="true" duration-ms="7934" started-at="2022-03-15T22:41:53 CDT" finished-at="2022-03-15T22:42:01 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="finologyLoginByEmail_EmailDuplicateTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByEmail_EmailDuplicateTest" duration-ms="11953" started-at="2022-03-15T22:42:01 CDT" data-provider="credentials" finished-at="2022-03-15T22:42:12 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anvardhan551@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pnbe@305]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iteration1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This isiteration1of this test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finologyLoginByEmail_EmailDuplicateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="tearDown" is-config="true" duration-ms="4118" started-at="2022-03-15T22:42:12 CDT" finished-at="2022-03-15T22:42:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="setUp" is-config="true" duration-ms="7156" started-at="2022-03-15T22:42:17 CDT" finished-at="2022-03-15T22:42:24 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="finologyLoginByEmail_EmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByEmail_EmailTest" duration-ms="11517" started-at="2022-03-15T22:42:24 CDT" data-provider="credentials" finished-at="2022-03-15T22:42:35 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anvardhan551@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pnbe@305]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iteration1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This isiteration1of this test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finologyLoginByEmail_EmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="tearDown" is-config="true" duration-ms="4166" started-at="2022-03-15T22:42:35 CDT" finished-at="2022-03-15T22:42:39 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="setUp" is-config="true" duration-ms="8118" started-at="2022-03-15T22:42:39 CDT" finished-at="2022-03-15T22:42:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="finologyLoginByEmail_EmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByEmail_EmailTest" duration-ms="11513" retried="true" started-at="2022-03-15T22:42:48 CDT" data-provider="credentials" finished-at="2022-03-15T22:42:59 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7799096333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pnbe@305]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iteration2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span>...</span> is not clickable at point (859, 337). Other element would receive the click: <a class="c-primary text-nounder" href="/account/logout">...</a>
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e27003df077cffbeff3b01571cc3835d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (859, 337). Other element would receive the click: <a class="c-primary text-nounder" href="/account/logout">...</a>
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e27003df077cffbeff3b01571cc3835d
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.qa.tests.FinologyLoginTest.finologyLoginByEmail_EmailTest(FinologyLoginTest.java:75)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[This isiteration2of this test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finologyLoginByEmail_EmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="tearDown" is-config="true" duration-ms="4131" started-at="2022-03-15T22:42:59 CDT" finished-at="2022-03-15T22:43:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="setUp" is-config="true" duration-ms="6577" started-at="2022-03-15T22:43:03 CDT" finished-at="2022-03-15T22:43:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="finologyLoginByEmail_EmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByEmail_EmailTest" duration-ms="14106" started-at="2022-03-15T22:43:10 CDT" data-provider="credentials" finished-at="2022-03-15T22:43:24 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7799096333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pnbe@305]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iteration2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This isiteration2of this test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finologyLoginByEmail_EmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="tearDown" is-config="true" duration-ms="4109" started-at="2022-03-15T22:43:24 CDT" finished-at="2022-03-15T22:43:28 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="setUp" is-config="true" duration-ms="8717" started-at="2022-03-15T22:43:28 CDT" finished-at="2022-03-15T22:43:37 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="finologyLoginByEmail_EmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="finologyLoginByEmail_EmailTest" duration-ms="12171" started-at="2022-03-15T22:43:37 CDT" data-provider="credentials" finished-at="2022-03-15T22:43:49 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anvardhan551@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pnbe@305]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iteration1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[This isiteration1of this test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finologyLoginByEmail_EmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@6a192cfe]" name="tearDown" is-config="true" duration-ms="4086" started-at="2022-03-15T22:43:49 CDT" finished-at="2022-03-15T22:43:53 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.FinologyLoginTest -->
+    </test> <!-- App1Test -->
+  </suite> <!-- TestSuite1 -->
+</testng-results>
