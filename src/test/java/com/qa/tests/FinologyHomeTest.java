@@ -10,7 +10,7 @@ import com.qa.pages.FinologyHomePage;
 public class FinologyHomeTest extends BaseTest {	
 	
 	//Home Page
-	//@Test (retryAnalyzer = com.qa.app.base.RetryAnalyzer.class, enabled = true, priority = 1, groups = {"sanity", "mandatory"}, description = "This test is to validate Ticker App url")
+	//@Test (retryAnalyzer = com.qa.app.listeners.RetryAnalyzer.class, enabled = true, priority = 1, groups = {"sanity", "mandatory"}, description = "This test is to validate Ticker App url")
 	@Test (enabled = true, priority = 1, groups = {"sanity", "mandatory"}, description = "This test is to validate Ticker App url")
 	public void tickerProduct_validateTickerUrl() throws Exception {
 		
