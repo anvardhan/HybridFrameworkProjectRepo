@@ -173,13 +173,14 @@ public class FinologyLoginTest extends BaseTest {
 		
 	}
 	
-	@Test (enabled=false)
-	public void finologyLoginByEmail_InvalidEmail__EmailTest() throws Exception  {		
-						
+	@Test (enabled=true, dataProvider="invalidCredentials")
+	public void finologyLoginByEmail_InvalidEmail__EmailTest(String email, String password, String iterationNo) throws Exception  {		
+		
+		System.out.println("Iteration No: for finologyLoginByEmail_InvalidEmail: "+iterationNo);
 		selenium.click_By(FinologyLoginPage.signInLink, "SignIn Link");
 		selenium.click_By(FinologyLoginPage.loginWithEmailLink, "LoginWithEmailLink");
-		selenium.enterText_By(FinologyLoginPage.emailOrPhoneTextbox, "anvardhan552@gmail.com", "Email");
-		selenium.enterText_By(FinologyLoginPage.passwordTextbox, "Pnbe@305", "Password");
+		selenium.enterText_By(FinologyLoginPage.emailOrPhoneTextbox, email, "Email");
+		selenium.enterText_By(FinologyLoginPage.passwordTextbox, password, "Password");
 		selenium.click_By(FinologyLoginPage.loginBtn, "Login btn");
 				
 		String errorHeading = selenium.getElementText_By(FinologyLoginPage.errorHeadingMsg, "ErrorHead");
@@ -225,6 +226,19 @@ public class FinologyLoginTest extends BaseTest {
 								{"anvardhan551@gmail.com", "Pnbe@305", "iteration1"}, 
 								{"7799096333","Pnbe@305", "iteration2"},
 								{"anvardhan551@gmail.com", "Pnbe@305", "iteration1"}
+							  };
+		
+		return userData;				
+		
+	}
+	
+	@DataProvider (name = "invalidCredentials")
+	public Object[][] InvalidEmailUserCredential_dataprovider() {
+		
+		Object[][] userData = {
+								{"anvardhan552@gmail.com", "Pnbe@305", "iteration1"}, 
+								{"test12","Pnbe@305", "iteration2"},
+								{"anvardhan551gmail.com", "Pnbe@305", "iteration1"}
 							  };
 		
 		return userData;				
