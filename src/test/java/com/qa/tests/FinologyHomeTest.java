@@ -9,7 +9,9 @@ import com.qa.pages.FinologyHomePage;
 
 public class FinologyHomeTest extends BaseTest {	
 	
+
 	//Adding test scripts related to Finology Home Test - Home page of all app
+
 	
 	//Home Page
 	//@Test (retryAnalyzer = com.qa.app.listeners.RetryAnalyzer.class, enabled = true, priority = 1, groups = {"sanity", "mandatory"}, description = "This test is to validate Ticker App url")
