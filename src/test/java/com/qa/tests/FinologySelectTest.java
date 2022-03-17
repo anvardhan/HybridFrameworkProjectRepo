@@ -18,6 +18,9 @@ import com.qa.pages.FinologySelectPage;
 
 public class FinologySelectTest extends BaseTest {
 	
+	
+	//Adding test scripts related to Select App1
+	
 	//Select Home Page
 	@Test (enabled = true, priority=1, groups = {"sanity", "regression"})
 	public void SelectProduct_validateSelectLogo() throws Exception {
