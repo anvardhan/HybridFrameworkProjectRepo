@@ -44,6 +44,9 @@ public class FinologyHomePage extends BrowserDriverFactory {
 	
 	//Methods/Actions related to HomePage
 	
+	public void TestFeatureBranch () {
+		System.out.println("Added code from feature branch");
+	}
 		
 
 }
