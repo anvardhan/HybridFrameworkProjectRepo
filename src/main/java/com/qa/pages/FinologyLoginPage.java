@@ -54,6 +54,7 @@ public class FinologyLoginPage extends BrowserDriverFactory {
 		System.out.println("Added code into master branch by other developer");
 		System.out.println("Added code into from feature branch by me");
 		System.out.println("Added code into from feature branch by me new");
+		System.out.println("Added code into from feature branch by me new2");
 	}
 		
 
