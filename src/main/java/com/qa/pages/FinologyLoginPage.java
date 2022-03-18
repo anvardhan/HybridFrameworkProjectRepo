@@ -50,7 +50,9 @@ public class FinologyLoginPage extends BrowserDriverFactory {
 	
 	
 	//Methods/Actions related to LoginPage
-	
+	public void TestFeatureBranch () {
+		System.out.println("Added code into master branch by other developer");
+	}
 		
 
 }
