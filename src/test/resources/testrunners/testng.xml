@@ -9,6 +9,7 @@
 	<listeners>
 		<listener class-name="com.qa.app.listeners.RetryIAnnotationTransformerListener"></listener>
 		<listener class-name="com.qa.app.listeners.ExtentReportListener"></listener>
+		<listener class-name="com.qa.app.listeners.TestAllureListener"></listener>
 	</listeners>
 	
 	<suite-files>
