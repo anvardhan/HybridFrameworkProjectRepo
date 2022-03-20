@@ -3,7 +3,7 @@ package com.qa.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 
-import com.qa.app.base.BrowserDriverFactory;
+import com.qa.app.DriverFactory.BrowserDriverFactory;
 import com.qa.app.utils.WebElementUtil;
 
 public class FinologySelectPage extends BrowserDriverFactory {

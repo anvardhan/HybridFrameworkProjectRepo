@@ -29,7 +29,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.qa.app.base.BrowserDriverFactory;
+import com.qa.app.DriverFactory.BrowserDriverFactory;
 
 public class WebElementUtil {
 	

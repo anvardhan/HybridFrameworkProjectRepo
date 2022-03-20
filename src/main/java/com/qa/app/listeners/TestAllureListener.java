@@ -13,7 +13,7 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import com.aventstack.extentreports.MediaEntityBuilder;
-import com.qa.app.base.BrowserDriverFactory;
+import com.qa.app.DriverFactory.BrowserDriverFactory;
 import com.qa.app.utils.WebElementUtil;
 
 

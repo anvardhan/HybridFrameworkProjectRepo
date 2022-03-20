@@ -1,5 +1,7 @@
 package com.qa.tests;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -584,8 +586,43 @@ public class FinologySelectTest extends BaseTest {
 	@DataProvider (name = "Calculator_ICICI")
 	public Object[][] getICICICalculatorData() throws IOException {
 		
-		String filePath = ".\\src\\test\\resources\\TestData\\TestData_FinologySelect.xlsx";
-		String sheetName = "Calculator_ICICI";
+		String filePath = null;
+		String sheetName = null;
+		
+		//Running test data for specific environment through Maven/Jenkins - use environments as needed
+		//mvn clean install -DfilePath="dev"
+		
+		/*String excelPath = System.getProperty("filePath");  //value should be qa, dev, stage or uat
+		
+		if (excelPath == null) {
+			System.out.println("Test Data taken from: " + excelPath);
+			filePath = ".\\src\\test\\resources\\TestData\\TestData_FinologySelect - qa.xlsx";
+			
+		} else {
+			System.out.println("Test Data taken from: " + excelPath);
+			switch (excelPath.toLowerCase()) {
+			case "qa":
+				filePath = ".\\src\\test\\resources\\TestData\\TestData_FinologySelect - qa.xlsx";
+				break;
+			case "dev":
+				filePath = ".\\src\\test\\resources\\TestData\\TestData_FinologySelect - dev.xlsx";
+				break;
+			case "stage":
+				filePath = ".\\src\\test\\resources\\TestData\\TestData_FinologySelect - stage.xlsx";
+				break;
+			case "uat":
+				filePath = ".\\src\\test\\resources\\TestData\\TestData_FinologySelect - uat.xlsx";
+				break;
+
+			default:
+				System.out.println("please pass the right excelpath for test data.....");
+				break;
+			}
+		}*/
+		
+		
+		filePath = ".\\src\\test\\resources\\TestData\\TestData_FinologySelect.xlsx";
+		sheetName = "Calculator_ICICI";
 		
 		ExcelUtilities.setExcelFile(filePath, sheetName);
 		ArrayList<HashMap<String,String>> readExcelData = ExcelUtilities.readExcelData();

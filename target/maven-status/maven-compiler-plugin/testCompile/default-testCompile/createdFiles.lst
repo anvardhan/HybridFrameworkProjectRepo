@@ -1,10 +1,10 @@
-com\qa\tests\FinologyHomeTest.class
 com\qa\tests\FinologyTickerTest.class
 com\qa\tests\BaseTest.class
-com\qa\tests\TestClass.class
 commonutilitiestest\ExcelCsvPdfRelatedTest.class
 commonutilitiestest\DatabaseRelatedTest.class
 com\qa\tests\FinologySignupTest.class
 com\qa\tests\RediffLoginPageTest.class
 com\qa\tests\FinologySelectTest.class
+com\qa\tests\FinologyHomeTest.class
+com\qa\tests\TestClass.class
 com\qa\tests\FinologyLoginTest.class

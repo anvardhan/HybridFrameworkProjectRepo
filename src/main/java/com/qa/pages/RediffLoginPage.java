@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.qa.app.base.BrowserDriverFactory;
+import com.qa.app.DriverFactory.BrowserDriverFactory;
 import com.qa.app.utils.WebElementUtil;
 
 public class RediffLoginPage extends BrowserDriverFactory {

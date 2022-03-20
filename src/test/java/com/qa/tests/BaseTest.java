@@ -7,7 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.asserts.SoftAssert;
 
-import com.qa.app.base.BrowserDriverFactory;
+import com.qa.app.DriverFactory.BrowserDriverFactory;
 import com.qa.app.utils.WebElementUtil;
 
 public class BaseTest {

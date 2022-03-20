@@ -17,6 +17,7 @@
 		<log4j.version>2.11.1</log4j.version>
 		<selenium.version>3.141.59</selenium.version>
 		<extentreports-version>3.1.5</extentreports-version>
+		<aspectj.version>1.9.5</aspectj.version>
 	</properties>
 
 	<build>
@@ -40,13 +41,30 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
 					<configuration>
+						<forkCount>3</forkCount>
+						<reuseForks>true</reuseForks>
+						<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 						<suiteXmlFiles>
-							<suiteXmlFile>src/test/resources/testrunners/testng.xml</suiteXmlFile>
+							<suiteXmlFile>src/test/resources/testrunners/testng_select.xml</suiteXmlFile>
 						</suiteXmlFiles>
+
+						<argLine>
+							-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+						</argLine>
+
 					</configuration>
+
+					<dependencies>
+						<dependency>
+							<groupId>org.aspectj</groupId>
+							<artifactId>aspectjweaver</artifactId>
+							<version>${aspectj.version}</version>
+						</dependency>
+					</dependencies>
+
 				</plugin>
-				
-			</plugins>			
+
+			</plugins>
 		</pluginManagement>
 
 		<plugins>
@@ -72,7 +90,7 @@
 				</executions>
 			</plugin>
 		</plugins>
-		
+
 	</build>
 
 	<dependencies>
@@ -191,7 +209,7 @@
 			<artifactId>selenium-htmlunit-driver</artifactId>
 			<version>2.52.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>io.qameta.allure</groupId>
 			<artifactId>allure-testng</artifactId>

@@ -1,749 +1,815 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="20" retried="2" total="40" passed="16">
+<testng-results skipped="4" failed="1" ignored="5" total="11" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[This Test is to validate ticker App url which is a new window]]>
-    </line>
-    <line>
-      <![CDATA[Fail - Finology Url is NOT as expected]]>
-    </line>
-    <line>
-      <![CDATA[This Test is to validate ticker App url which is a new window]]>
-    </line>
-    <line>
-      <![CDATA[Fail - Finology Url is NOT as expected]]>
-    </line>
-    <line>
-      <![CDATA[This isiteration1of this test]]>
-    </line>
-    <line>
-      <![CDATA[This isiteration2of this test]]>
-    </line>
-    <line>
-      <![CDATA[This isiteration1of this test]]>
-    </line>
-    <line>
-      <![CDATA[This isiteration1of this test]]>
-    </line>
-    <line>
-      <![CDATA[This isiteration2of this test]]>
-    </line>
-    <line>
-      <![CDATA[This isiteration1of this test]]>
-    </line>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="0" started-at="2022-03-15T23:54:01 CDT" finished-at="2022-03-15T23:54:01 CDT">
-    <groups>
-    </groups>
-  </suite> <!-- TestSuite -->
-  <suite name="TestSuite2" duration-ms="227129" started-at="2022-03-15T23:50:14 CDT" finished-at="2022-03-15T23:54:01 CDT">
+  <suite name="TestSuite" duration-ms="52643" started-at="2022-03-19T20:48:06 CDT" finished-at="2022-03-19T20:48:58 CDT">
     <groups>
       <group name="regression">
-        <method signature="FinologySelectTest.SelectProduct_validateSelectLogo()[pri:1, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="SelectProduct_validateSelectLogo" class="com.qa.tests.FinologySelectTest"/>
-        <method signature="FinologySelectTest.validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="validateBrokerageRateAndAmount_Calculators" class="com.qa.tests.FinologySelectTest"/>
-        <method signature="FinologyTickerTest.tickerProduct_getHighestPrice_Sector()[pri:2, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="tickerProduct_getHighestPrice_Sector" class="com.qa.tests.FinologyTickerTest"/>
-        <method signature="FinologyTickerTest.tickerProduct_getPriceForListedCompanies_Sector_Parameterized()[pri:3, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="tickerProduct_getPriceForListedCompanies_Sector_Parameterized" class="com.qa.tests.FinologyTickerTest"/>
-        <method signature="FinologyTickerTest.tickerProduct_validateTickerLogo()[pri:1, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="tickerProduct_validateTickerLogo" class="com.qa.tests.FinologyTickerTest"/>
+        <method signature="FinologySelectTest.SelectProduct_validateSelectLogo()[pri:1, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="SelectProduct_validateSelectLogo" class="com.qa.tests.FinologySelectTest"/>
+        <method signature="FinologySelectTest.validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="validateBrokerageRateAndAmount_Calculators" class="com.qa.tests.FinologySelectTest"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="FinologySelectTest.SelectProduct_validateSelectLogo()[pri:1, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="SelectProduct_validateSelectLogo" class="com.qa.tests.FinologySelectTest"/>
-        <method signature="FinologyTickerTest.tickerProduct_validateTickerLogo()[pri:1, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="tickerProduct_validateTickerLogo" class="com.qa.tests.FinologyTickerTest"/>
+        <method signature="FinologySelectTest.SelectProduct_validateSelectLogo()[pri:1, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="SelectProduct_validateSelectLogo" class="com.qa.tests.FinologySelectTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="App2Test" duration-ms="227129" started-at="2022-03-15T23:50:14 CDT" finished-at="2022-03-15T23:54:01 CDT">
-      <class name="com.qa.tests.FinologyTickerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="setUp" is-config="true" duration-ms="6716" started-at="2022-03-15T23:50:14 CDT" finished-at="2022-03-15T23:50:21 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tickerProduct_validateTickerLogo()[pri:1, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="tickerProduct_validateTickerLogo" duration-ms="6242" started-at="2022-03-15T23:50:21 CDT" finished-at="2022-03-15T23:50:27 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tickerProduct_validateTickerLogo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="tearDown" is-config="true" duration-ms="4124" started-at="2022-03-15T23:50:27 CDT" finished-at="2022-03-15T23:50:31 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="setUp" is-config="true" duration-ms="6074" started-at="2022-03-15T23:50:31 CDT" finished-at="2022-03-15T23:50:37 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tickerProduct_getHighestPrice_Sector()[pri:2, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="tickerProduct_getHighestPrice_Sector" duration-ms="22870" started-at="2022-03-15T23:50:37 CDT" finished-at="2022-03-15T23:51:00 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tickerProduct_getHighestPrice_Sector -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="tearDown" is-config="true" duration-ms="4124" started-at="2022-03-15T23:51:00 CDT" finished-at="2022-03-15T23:51:04 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="setUp" is-config="true" duration-ms="7432" started-at="2022-03-15T23:51:04 CDT" finished-at="2022-03-15T23:51:12 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tickerProduct_getPriceForListedCompanies_Sector_Parameterized()[pri:3, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="tickerProduct_getPriceForListedCompanies_Sector_Parameterized" duration-ms="22755" started-at="2022-03-15T23:51:12 CDT" finished-at="2022-03-15T23:51:34 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tickerProduct_getPriceForListedCompanies_Sector_Parameterized -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyTickerTest@7880cdf3]" name="tearDown" is-config="true" duration-ms="4127" started-at="2022-03-15T23:51:34 CDT" finished-at="2022-03-15T23:51:38 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.tests.FinologyTickerTest -->
+    <test name="App2Test" duration-ms="52643" started-at="2022-03-19T20:48:06 CDT" finished-at="2022-03-19T20:48:58 CDT">
       <class name="com.qa.tests.FinologySelectTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="setUp" is-config="true" duration-ms="6725" started-at="2022-03-15T23:51:38 CDT" finished-at="2022-03-15T23:51:45 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="setUp" is-config="true" duration-ms="6803" started-at="2022-03-19T20:48:06 CDT" finished-at="2022-03-19T20:48:13 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SelectProduct_validateBrokersCount()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="SelectProduct_validateBrokersCount" duration-ms="10755" started-at="2022-03-15T23:51:45 CDT" finished-at="2022-03-15T23:51:56 CDT">
+        <test-method status="PASS" signature="SelectProduct_validateBrokersCount()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="SelectProduct_validateBrokersCount" duration-ms="7232" started-at="2022-03-19T20:48:13 CDT" finished-at="2022-03-19T20:48:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectProduct_validateBrokersCount -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="tearDown" is-config="true" duration-ms="4119" started-at="2022-03-15T23:51:56 CDT" finished-at="2022-03-15T23:52:00 CDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="tearDown" is-config="true" duration-ms="4164" started-at="2022-03-19T20:48:20 CDT" finished-at="2022-03-19T20:48:24 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="setUp" is-config="true" duration-ms="5756" started-at="2022-03-15T23:52:00 CDT" finished-at="2022-03-15T23:52:06 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="setUp" is-config="true" duration-ms="2783" started-at="2022-03-19T20:48:24 CDT" finished-at="2022-03-19T20:48:27 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SelectProduct_validateSelectLogo()[pri:1, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="SelectProduct_validateSelectLogo" duration-ms="7101" started-at="2022-03-15T23:52:06 CDT" finished-at="2022-03-15T23:52:13 CDT">
+        <test-method status="FAIL" signature="SelectProduct_validateSelectLogo()[pri:1, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="SelectProduct_validateSelectLogo" duration-ms="272" started-at="2022-03-19T20:48:27 CDT" finished-at="2022-03-19T20:48:27 CDT">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc781aec610ff8c838f797bdc0ef1cb9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc781aec610ff8c838f797bdc0ef1cb9
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:472)
+at com.qa.app.utils.WebElementUtil.getParentWindowId(WebElementUtil.java:1135)
+at com.qa.tests.FinologySelectTest.SelectProduct_validateSelectLogo(FinologySelectTest.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectProduct_validateSelectLogo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="tearDown" is-config="true" duration-ms="4135" started-at="2022-03-15T23:52:13 CDT" finished-at="2022-03-15T23:52:17 CDT">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="tearDown" is-config="true" duration-ms="4122" started-at="2022-03-19T20:48:27 CDT" finished-at="2022-03-19T20:48:31 CDT">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc781aec610ff8c838f797bdc0ef1cb9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc781aec610ff8c838f797bdc0ef1cb9
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.qa.app.DriverFactory.BrowserDriverFactory.closeBrowser(BrowserDriverFactory.java:191)
+at com.qa.tests.BaseTest.tearDown(BaseTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="setUp" is-config="true" duration-ms="7529" started-at="2022-03-15T23:52:18 CDT" finished-at="2022-03-15T23:52:25 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="setUp" is-config="true" duration-ms="3335" started-at="2022-03-19T20:48:32 CDT" finished-at="2022-03-19T20:48:35 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="14977" started-at="2022-03-15T23:52:25 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-15T23:52:40 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ICICIDirect Neo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[150]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[12]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[0.55]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="0" started-at="2022-03-19T20:48:35 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-19T20:48:35 CDT">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc781aec610ff8c838f797bdc0ef1cb9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc781aec610ff8c838f797bdc0ef1cb9
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.qa.app.DriverFactory.BrowserDriverFactory.closeBrowser(BrowserDriverFactory.java:191)
+at com.qa.tests.BaseTest.tearDown(BaseTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBrokerageRateAndAmount_Calculators -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="tearDown" is-config="true" duration-ms="4126" started-at="2022-03-15T23:52:40 CDT" finished-at="2022-03-15T23:52:44 CDT">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="tearDown" is-config="true" duration-ms="608" started-at="2022-03-19T20:48:35 CDT" finished-at="2022-03-19T20:48:36 CDT">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cdef1285468ba710c50240feef45799]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cdef1285468ba710c50240feef45799
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.qa.app.DriverFactory.BrowserDriverFactory.closeBrowser(BrowserDriverFactory.java:191)
+at com.qa.tests.BaseTest.tearDown(BaseTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:530)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="setUp" is-config="true" duration-ms="7729" started-at="2022-03-15T23:52:44 CDT" finished-at="2022-03-15T23:52:52 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="setUp" is-config="true" duration-ms="3180" started-at="2022-03-19T20:48:36 CDT" finished-at="2022-03-19T20:48:39 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="14913" started-at="2022-03-15T23:52:52 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-15T23:53:07 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Prime 1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[250]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[200]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[0.27]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="0" started-at="2022-03-19T20:48:39 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-19T20:48:39 CDT">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cdef1285468ba710c50240feef45799]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cdef1285468ba710c50240feef45799
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.qa.app.DriverFactory.BrowserDriverFactory.closeBrowser(BrowserDriverFactory.java:191)
+at com.qa.tests.BaseTest.tearDown(BaseTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:530)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBrokerageRateAndAmount_Calculators -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="tearDown" is-config="true" duration-ms="4123" started-at="2022-03-15T23:53:07 CDT" finished-at="2022-03-15T23:53:11 CDT">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="tearDown" is-config="true" duration-ms="4130" started-at="2022-03-19T20:48:39 CDT" finished-at="2022-03-19T20:48:43 CDT">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53682}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc6fbde4e5f841d2931c06185057e121]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53682}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc6fbde4e5f841d2931c06185057e121
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.qa.app.DriverFactory.BrowserDriverFactory.closeBrowser(BrowserDriverFactory.java:191)
+at com.qa.tests.BaseTest.tearDown(BaseTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:530)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="setUp" is-config="true" duration-ms="6501" started-at="2022-03-15T23:53:11 CDT" finished-at="2022-03-15T23:53:17 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="setUp" is-config="true" duration-ms="3666" started-at="2022-03-19T20:48:43 CDT" finished-at="2022-03-19T20:48:47 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="14261" started-at="2022-03-15T23:53:17 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-15T23:53:32 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Prepaid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[300]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[220]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[0.25]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="0" started-at="2022-03-19T20:48:47 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-19T20:48:47 CDT">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cdef1285468ba710c50240feef45799]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cdef1285468ba710c50240feef45799
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.qa.app.DriverFactory.BrowserDriverFactory.closeBrowser(BrowserDriverFactory.java:191)
+at com.qa.tests.BaseTest.tearDown(BaseTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:530)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBrokerageRateAndAmount_Calculators -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="tearDown" is-config="true" duration-ms="4126" started-at="2022-03-15T23:53:32 CDT" finished-at="2022-03-15T23:53:36 CDT">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="tearDown" is-config="true" duration-ms="4074" started-at="2022-03-19T20:48:47 CDT" finished-at="2022-03-19T20:48:51 CDT">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b17ce20d063a0d5e9b5217ae0ce60d00]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b17ce20d063a0d5e9b5217ae0ce60d00
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.qa.app.DriverFactory.BrowserDriverFactory.closeBrowser(BrowserDriverFactory.java:191)
+at com.qa.tests.BaseTest.tearDown(BaseTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:530)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="setUp" is-config="true" duration-ms="5745" started-at="2022-03-15T23:53:36 CDT" finished-at="2022-03-15T23:53:42 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="setUp" is-config="true" duration-ms="3083" started-at="2022-03-19T20:48:51 CDT" finished-at="2022-03-19T20:48:54 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="15427" started-at="2022-03-15T23:53:42 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-15T23:53:57 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Prime 4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[120]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[300]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[0.15]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="validateBrokerageRateAndAmount_Calculators(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="validateBrokerageRateAndAmount_Calculators" duration-ms="0" started-at="2022-03-19T20:48:54 CDT" data-provider="Calculator_ICICI" finished-at="2022-03-19T20:48:54 CDT">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b17ce20d063a0d5e9b5217ae0ce60d00]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53718}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b17ce20d063a0d5e9b5217ae0ce60d00
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.qa.app.DriverFactory.BrowserDriverFactory.closeBrowser(BrowserDriverFactory.java:191)
+at com.qa.tests.BaseTest.tearDown(BaseTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:530)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBrokerageRateAndAmount_Calculators -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@5be6e01c]" name="tearDown" is-config="true" duration-ms="4139" started-at="2022-03-15T23:53:57 CDT" finished-at="2022-03-15T23:54:01 CDT">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.qa.tests.FinologySelectTest@4562e04d]" name="tearDown" is-config="true" duration-ms="4134" started-at="2022-03-19T20:48:54 CDT" finished-at="2022-03-19T20:48:58 CDT">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b7bb5a3bca2bebe5cf88a1486e8c9b90]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=99.0.4844.74)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IC54V12', ip: '192.168.0.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Anand\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b7bb5a3bca2bebe5cf88a1486e8c9b90
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.qa.app.DriverFactory.BrowserDriverFactory.closeBrowser(BrowserDriverFactory.java:191)
+at com.qa.tests.BaseTest.tearDown(BaseTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:530)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.tests.FinologySelectTest -->
     </test> <!-- App2Test -->
-  </suite> <!-- TestSuite2 -->
-  <suite name="TestSuite1" duration-ms="254929" started-at="2022-03-15T23:45:59 CDT" finished-at="2022-03-15T23:50:14 CDT">
-    <groups>
-      <group name="regression">
-        <method signature="FinologyHomeTest.selectProduct_validateSelectUrl()[pri:2, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="selectProduct_validateSelectUrl" class="com.qa.tests.FinologyHomeTest"/>
-      </group> <!-- regression -->
-      <group name="regresiion">
-        <method signature="FinologyLoginTest.finologyLoginByPhoneTest(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByPhoneTest" class="com.qa.tests.FinologyLoginTest"/>
-      </group> <!-- regresiion -->
-      <group name="sanity">
-        <method signature="FinologyHomeTest.selectProduct_validateSelectUrl()[pri:2, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="selectProduct_validateSelectUrl" class="com.qa.tests.FinologyHomeTest"/>
-        <method signature="FinologyHomeTest.tickerProduct_validateTickerUrl()[pri:1, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="tickerProduct_validateTickerUrl" class="com.qa.tests.FinologyHomeTest"/>
-        <method signature="FinologyLoginTest.finologyLoginByEmail_EmailDuplicateTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByEmail_EmailDuplicateTest" class="com.qa.tests.FinologyLoginTest"/>
-        <method signature="FinologyLoginTest.finologyLoginByEmail_EmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByEmail_EmailTest" class="com.qa.tests.FinologyLoginTest"/>
-        <method signature="FinologyLoginTest.finologyLoginByPhoneTest(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByPhoneTest" class="com.qa.tests.FinologyLoginTest"/>
-      </group> <!-- sanity -->
-      <group name="mandatory">
-        <method signature="FinologyHomeTest.tickerProduct_validateTickerUrl()[pri:1, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="tickerProduct_validateTickerUrl" class="com.qa.tests.FinologyHomeTest"/>
-        <method signature="FinologyLoginTest.finologyLoginByEmail_EmailDuplicateTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByEmail_EmailDuplicateTest" class="com.qa.tests.FinologyLoginTest"/>
-        <method signature="FinologyLoginTest.finologyLoginByEmail_EmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByEmail_EmailTest" class="com.qa.tests.FinologyLoginTest"/>
-        <method signature="FinologyLoginTest.finologyLoginByPhoneTest(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByPhoneTest" class="com.qa.tests.FinologyLoginTest"/>
-      </group> <!-- mandatory -->
-    </groups>
-    <test name="App1Test" duration-ms="254929" started-at="2022-03-15T23:45:59 CDT" finished-at="2022-03-15T23:50:14 CDT">
-      <class name="com.qa.tests.FinologyHomeTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="setUp" is-config="true" duration-ms="12712" started-at="2022-03-15T23:45:59 CDT" finished-at="2022-03-15T23:46:12 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tickerProduct_validateTickerUrl()[pri:1, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="tickerProduct_validateTickerUrl" duration-ms="6834" retried="true" started-at="2022-03-15T23:46:12 CDT" description="This test is to validate Ticker App url" finished-at="2022-03-15T23:46:18 CDT">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-Finology url is not as expected:  expected [https://www.finology.in/] but found [https://www.finology.india/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Finology url is not as expected:  expected [https://www.finology.in/] but found [https://www.finology.india/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at com.qa.tests.FinologyHomeTest.tickerProduct_validateTickerUrl(FinologyHomeTest.java:114)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[This Test is to validate ticker App url which is a new window]]>
-            </line>
-            <line>
-              <![CDATA[Fail - Finology Url is NOT as expected]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tickerProduct_validateTickerUrl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="tearDown" is-config="true" duration-ms="4127" started-at="2022-03-15T23:46:19 CDT" finished-at="2022-03-15T23:46:23 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="setUp" is-config="true" duration-ms="8607" started-at="2022-03-15T23:46:23 CDT" finished-at="2022-03-15T23:46:31 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="tickerProduct_validateTickerUrl()[pri:1, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="tickerProduct_validateTickerUrl" duration-ms="6274" started-at="2022-03-15T23:46:31 CDT" description="This test is to validate Ticker App url" finished-at="2022-03-15T23:46:38 CDT">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-Finology url is not as expected:  expected [https://www.finology.in/] but found [https://www.finology.india/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Finology url is not as expected:  expected [https://www.finology.in/] but found [https://www.finology.india/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at com.qa.tests.FinologyHomeTest.tickerProduct_validateTickerUrl(FinologyHomeTest.java:114)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[This Test is to validate ticker App url which is a new window]]>
-            </line>
-            <line>
-              <![CDATA[Fail - Finology Url is NOT as expected]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tickerProduct_validateTickerUrl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="tearDown" is-config="true" duration-ms="4151" started-at="2022-03-15T23:46:38 CDT" finished-at="2022-03-15T23:46:42 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="setUp" is-config="true" duration-ms="7402" started-at="2022-03-15T23:46:42 CDT" finished-at="2022-03-15T23:46:49 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="selectProduct_validateSelectUrl()[pri:2, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="selectProduct_validateSelectUrl" duration-ms="7758" retried="true" started-at="2022-03-15T23:46:49 CDT" description="This test is to validate Select App url" finished-at="2022-03-15T23:46:57 CDT">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-Select url is not as expected:  expected [https://select.finology.in1/] but found [//https://select.finology.india/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Select url is not as expected:  expected [https://select.finology.in1/] but found [//https://select.finology.india/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at com.qa.tests.FinologyHomeTest.selectProduct_validateSelectUrl(FinologyHomeTest.java:167)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectProduct_validateSelectUrl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="tearDown" is-config="true" duration-ms="4127" started-at="2022-03-15T23:46:57 CDT" finished-at="2022-03-15T23:47:02 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="setUp" is-config="true" duration-ms="7475" started-at="2022-03-15T23:47:02 CDT" finished-at="2022-03-15T23:47:09 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="selectProduct_validateSelectUrl()[pri:2, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="selectProduct_validateSelectUrl" duration-ms="7424" started-at="2022-03-15T23:47:09 CDT" description="This test is to validate Select App url" finished-at="2022-03-15T23:47:16 CDT">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-Select url is not as expected:  expected [https://select.finology.in1/] but found [//https://select.finology.india/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Select url is not as expected:  expected [https://select.finology.in1/] but found [//https://select.finology.india/]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at com.qa.tests.FinologyHomeTest.selectProduct_validateSelectUrl(FinologyHomeTest.java:167)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectProduct_validateSelectUrl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyHomeTest@4313f5bc]" name="tearDown" is-config="true" duration-ms="4126" started-at="2022-03-15T23:47:17 CDT" finished-at="2022-03-15T23:47:21 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.tests.FinologyHomeTest -->
-      <class name="com.qa.tests.FinologyLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="setUp" is-config="true" duration-ms="6928" started-at="2022-03-15T23:47:21 CDT" finished-at="2022-03-15T23:47:28 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="finologyLoginByPhoneTest(java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByPhoneTest" duration-ms="13780" started-at="2022-03-15T23:47:28 CDT" finished-at="2022-03-15T23:47:41 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[7799096333]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pnbe@305]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finologyLoginByPhoneTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="tearDown" is-config="true" duration-ms="4096" started-at="2022-03-15T23:47:41 CDT" finished-at="2022-03-15T23:47:46 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="setUp" is-config="true" duration-ms="6436" started-at="2022-03-15T23:47:46 CDT" finished-at="2022-03-15T23:47:52 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="finologyLoginByEmail_EmailDuplicateTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByEmail_EmailDuplicateTest" duration-ms="14500" started-at="2022-03-15T23:47:52 CDT" data-provider="credentials" finished-at="2022-03-15T23:48:06 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[anvardhan551@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pnbe@305]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[iteration1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[This isiteration1of this test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- finologyLoginByEmail_EmailDuplicateTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="tearDown" is-config="true" duration-ms="4152" started-at="2022-03-15T23:48:06 CDT" finished-at="2022-03-15T23:48:11 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="setUp" is-config="true" duration-ms="7975" started-at="2022-03-15T23:48:11 CDT" finished-at="2022-03-15T23:48:19 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="finologyLoginByEmail_EmailDuplicateTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByEmail_EmailDuplicateTest" duration-ms="13738" started-at="2022-03-15T23:48:19 CDT" data-provider="credentials" finished-at="2022-03-15T23:48:32 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[7799096333]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pnbe@305]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[iteration2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[This isiteration2of this test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- finologyLoginByEmail_EmailDuplicateTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="tearDown" is-config="true" duration-ms="4118" started-at="2022-03-15T23:48:32 CDT" finished-at="2022-03-15T23:48:36 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="setUp" is-config="true" duration-ms="6740" started-at="2022-03-15T23:48:36 CDT" finished-at="2022-03-15T23:48:43 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="finologyLoginByEmail_EmailDuplicateTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByEmail_EmailDuplicateTest" duration-ms="13821" started-at="2022-03-15T23:48:43 CDT" data-provider="credentials" finished-at="2022-03-15T23:48:57 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[anvardhan551@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pnbe@305]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[iteration1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[This isiteration1of this test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- finologyLoginByEmail_EmailDuplicateTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="tearDown" is-config="true" duration-ms="4115" started-at="2022-03-15T23:48:57 CDT" finished-at="2022-03-15T23:49:01 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="setUp" is-config="true" duration-ms="6674" started-at="2022-03-15T23:49:01 CDT" finished-at="2022-03-15T23:49:08 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="finologyLoginByEmail_EmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByEmail_EmailTest" duration-ms="13112" started-at="2022-03-15T23:49:08 CDT" data-provider="credentials" finished-at="2022-03-15T23:49:21 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[anvardhan551@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pnbe@305]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[iteration1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[This isiteration1of this test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- finologyLoginByEmail_EmailTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="tearDown" is-config="true" duration-ms="4115" started-at="2022-03-15T23:49:21 CDT" finished-at="2022-03-15T23:49:25 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="setUp" is-config="true" duration-ms="6597" started-at="2022-03-15T23:49:25 CDT" finished-at="2022-03-15T23:49:32 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="finologyLoginByEmail_EmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByEmail_EmailTest" duration-ms="12911" started-at="2022-03-15T23:49:32 CDT" data-provider="credentials" finished-at="2022-03-15T23:49:45 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[7799096333]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pnbe@305]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[iteration2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[This isiteration2of this test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- finologyLoginByEmail_EmailTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="tearDown" is-config="true" duration-ms="4129" started-at="2022-03-15T23:49:45 CDT" finished-at="2022-03-15T23:49:49 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="setUp" is-config="true" duration-ms="6463" started-at="2022-03-15T23:49:49 CDT" finished-at="2022-03-15T23:49:55 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="finologyLoginByEmail_EmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="finologyLoginByEmail_EmailTest" duration-ms="14504" started-at="2022-03-15T23:49:55 CDT" data-provider="credentials" finished-at="2022-03-15T23:50:10 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[anvardhan551@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pnbe@305]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[iteration1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[This isiteration1of this test]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- finologyLoginByEmail_EmailTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FinologyLoginTest@7f010382]" name="tearDown" is-config="true" duration-ms="4133" started-at="2022-03-15T23:50:10 CDT" finished-at="2022-03-15T23:50:14 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.tests.FinologyLoginTest -->
-    </test> <!-- App1Test -->
-  </suite> <!-- TestSuite1 -->
+  </suite> <!-- TestSuite -->
 </testng-results>

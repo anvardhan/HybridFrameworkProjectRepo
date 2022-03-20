@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite1]">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]">
   <parameter name="password" value="Pnbe@305"/>
   <parameter name="mobile" value="7799096333"/>
   <parameter name="email" value="anvardhan551@gmail.com"/>
-  <listeners>
-    <listener class-name="com.qa.app.listeners.RetryIAnnotationTransformerListener"/>
-    <listener class-name="com.qa.app.listeners.ExtentReportListener"/>
-  </listeners>
-  <test thread-count="5" verbose="0" name="App1Test(failed)">
+  <test thread-count="2" verbose="0" name="App2Test(failed)">
     <groups>
       <run>
         <include name="runall"/>
       </run>
     </groups>
     <classes>
-      <class name="com.qa.tests.FinologyHomeTest">
+      <class name="com.qa.tests.FinologySelectTest">
         <methods>
           <include name="setUp"/>
-          <include name="selectProduct_validateSelectUrl"/>
+          <include name="SelectProduct_validateSelectLogo"/>
           <include name="tearDown"/>
-          <include name="tickerProduct_validateTickerUrl"/>
+          <include name="validateBrokerageRateAndAmount_Calculators"/>
         </methods>
-      </class> <!-- com.qa.tests.FinologyHomeTest -->
+      </class> <!-- com.qa.tests.FinologySelectTest -->
     </classes>
-  </test> <!-- App1Test(failed) -->
-</suite> <!-- Failed suite [TestSuite1] -->
+  </test> <!-- App2Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
