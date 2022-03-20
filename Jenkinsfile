@@ -10,19 +10,16 @@ pipeline
     {
         stage('Build') 
         {
-            steps 
-            {
-                 git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
-            }
-            post 
-            {
-                success 
-                {
-                    junit '**/target/surefire-reports/TEST-*.xml'
-                    archiveArtifacts 'target/*.jar'
-                }
-            }
+            steps {
+                echo("Build Successful")
+            }            
+        }
+        
+        stage('Deploy') 
+        {
+            steps {
+                echo("Deploy to QA env is Successful")
+            }            
         }
         
         
@@ -61,6 +58,20 @@ pipeline
                                   reportName: 'HTML Extent Report', 
                                   reportTitles: ''])
             }
+        }
+        
+        stage('UAT') 
+        {
+            steps {
+                echo("Deploy to UAT env is Successful")
+            }            
+        }
+        
+        stage('Production') 
+        {
+            steps {
+                echo("Deploy to Production env is Successful")
+            }            
         }
     }
 }
