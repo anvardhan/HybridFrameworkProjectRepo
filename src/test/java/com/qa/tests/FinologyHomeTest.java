@@ -35,7 +35,7 @@ public class FinologyHomeTest extends BaseTest {
 		//A new window will open
 		
 		String actualFinologyUrl = selenium.getCurrentUrl();
-		actualFinologyUrl = "https://www.finology.india/";
+		//actualFinologyUrl = "https://www.finology.india/";
 		
 		System.out.println(selenium.getCurrentUrl());  //https://www.finology.in/ because window focus is on main window
 		
@@ -150,14 +150,14 @@ public class FinologyHomeTest extends BaseTest {
 		actualSelectUrl = "//https://select.finology.india/";
 		System.out.println(actualSelectUrl); //https://select.finology.in/
 			
-		if(actualSelectUrl.equals("https://select.finology.india/")) {
+		if(actualSelectUrl.equals("https://select.finology.in/")) {
 			System.out.println("Pass - Select Url is as expected");
 		} else {
 			System.out.println("Fail - Select Url is NOT as expected");
 			WebElementUtil.takeScreenshots("selectProduct_validateSelectUrl");
 		}
 		
-		softassert.assertEquals(actualSelectUrl, "https://select.finology.in1/", "Select url is not as expected: ");
+		softassert.assertEquals(actualSelectUrl, "https://select.finology.in/", "Select url is not as expected: ");
 			
 		browserDriverFactory.closeBrowser(); //Close Ticker url browser
 			

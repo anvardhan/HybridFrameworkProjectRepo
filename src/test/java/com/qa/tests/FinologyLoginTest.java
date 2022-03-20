@@ -75,32 +75,7 @@ public class FinologyLoginTest extends BaseTest {
 		driver.findElement(By.xpath("//span[text()='Logout']")).click();
 				
 	}
-	
-	@Test (enabled=true, priority=2, groups = {"sanity", "mandatory"}, dataProvider="credentials")
-	public void finologyLoginByEmail_EmailDuplicateTest(String userIdEmailMobile, String password, String iterationNo) throws Exception  {		
 		
-		Reporter.log("This is" +iterationNo+ "of this test");
-		selenium.click_By(FinologyLoginPage.signInLink, "SignIn Link");
-		selenium.click_By(FinologyLoginPage.loginWithEmailLink, "LoginWithEmailLink");
-		selenium.enterText_By(FinologyLoginPage.emailOrPhoneTextbox, userIdEmailMobile, "Email");
-		selenium.enterText_By(FinologyLoginPage.passwordTextbox, password, "Password");
-		selenium.click_By(FinologyLoginPage.loginBtn, "Login btn");
-		selenium.explicitWait_By(FinologyLoginPage.welcomeMsg, 30, "PRESENCE");
-		String welcomeMsg = selenium.getElementText_By(FinologyLoginPage.welcomeMsg, "WelcomeText");
-				
-		if(welcomeMsg.contains("Hello")) {
-			System.out.println("Pass - Successful Login by email using email");
-			Assert.assertTrue(true);
-		} else {
-			System.out.println("Fail - Login Failed");
-			Assert.assertFalse(false);
-		}	
-		
-		driver.findElement(By.xpath("//*[@id='userphoto']")).click();
-		driver.findElement(By.xpath("//span[text()='Logout']")).click();
-				
-	}
-	
 	@Test (enabled=false)
 	public void finologyLoginByEmail_PhoneTest() throws Exception  {		
 					
