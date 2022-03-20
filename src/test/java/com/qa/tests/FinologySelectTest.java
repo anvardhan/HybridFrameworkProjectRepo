@@ -621,7 +621,7 @@ public class FinologySelectTest extends BaseTest {
 		}*/
 		
 		
-		filePath = ".\\src\\test\\resources\\TestData\\TestData_FinologySelect.xlsx";
+		filePath = ".\\src\\test\\resources\\TestData\\TestData_FinologySelect - qa.xlsx";
 		sheetName = "Calculator_ICICI";
 		
 		ExcelUtilities.setExcelFile(filePath, sheetName);
