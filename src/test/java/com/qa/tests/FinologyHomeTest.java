@@ -147,7 +147,7 @@ public class FinologyHomeTest extends BaseTest {
 		selenium.switchToChildWindow(childTickerWindow);
 			
 		String actualSelectUrl = selenium.getCurrentUrl();
-		actualSelectUrl = "//https://select.finology.india/";
+		//actualSelectUrl = "//https://select.finology.india/";
 		System.out.println(actualSelectUrl); //https://select.finology.in/
 			
 		if(actualSelectUrl.equals("https://select.finology.in/")) {
