@@ -7,6 +7,7 @@
   <listeners>
     <listener class-name="com.qa.app.listeners.RetryIAnnotationTransformerListener"/>
     <listener class-name="com.qa.app.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.app.listeners.TestAllureListener"/>
   </listeners>
   <test thread-count="5" name="App1Test(failed)">
     <groups>
@@ -15,6 +16,14 @@
       </run>
     </groups>
     <classes>
+      <class name="com.qa.tests.FinologyLoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="finologyLoginByPhoneTest" invocation-numbers="0 0"/>
+          <include name="finologyLoginByEmail_EmailTest" invocation-numbers="0 1 1 2"/>
+        </methods>
+      </class> <!-- com.qa.tests.FinologyLoginTest -->
       <class name="com.qa.tests.FinologyHomeTest">
         <methods>
           <include name="setUp"/>
@@ -23,13 +32,6 @@
           <include name="tickerProduct_validateTickerUrl"/>
         </methods>
       </class> <!-- com.qa.tests.FinologyHomeTest -->
-      <class name="com.qa.tests.FinologyLoginTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="finologyLoginByEmail_EmailTest" invocation-numbers="1"/>
-        </methods>
-      </class> <!-- com.qa.tests.FinologyLoginTest -->
     </classes>
   </test> <!-- App1Test(failed) -->
 </suite> <!-- Failed suite [TestSuite1] -->

@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -15,6 +17,9 @@ import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserDriverFactory {
@@ -23,27 +28,20 @@ public class BrowserDriverFactory {
 	
 	public static WebDriver driver = null;
 	public static Properties prop = null;
-	
+	public OptionsManager optionsManager = null;
 	
 	public WebDriver initializeBrowser() throws IOException {
 		
 		prop=BrowserDriverFactory.readConfig();
 		String browserName = prop.getProperty("browser");	
+		optionsManager = new OptionsManager();
 				
 		switch(browserName) {	
 		
 			case "chrome": 
 				//System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\browserdrivers\\chromedriver.exe");	
-				WebDriverManager.chromedriver().setup();
-				
-				ChromeOptions options = new ChromeOptions();
-				options.addArguments("--start-maximized");
-				options.addArguments("enable-automation");
-				if (Boolean.parseBoolean(prop.getProperty("headless"))) {options.addArguments("--headless");options.addArguments("window-size=1400,800");}
-				if (Boolean.parseBoolean(prop.getProperty("incognito"))) options.addArguments("--incognito");
-				
-				driver = new ChromeDriver(options);			
-				
+				WebDriverManager.chromedriver().setup();					
+				driver = new ChromeDriver(optionsManager.getChromeOptions());				
 				System.out.println("Chrome driver launched");				
 				break;
 				
@@ -63,19 +61,8 @@ public class BrowserDriverFactory {
 				
 			case "firefox": 
 				System.setProperty("webdriver.gecko.driver", ".\\src\\main\\resources\\browserdrivers\\geckodriver.exe");
-				//WebDriverManager.firefoxdriver().setup();
-				
-				FirefoxBinary forefoxBinary = new FirefoxBinary();
-				if (Boolean.parseBoolean(prop.getProperty("headless"))) forefoxBinary.addCommandLineOptions("--headless");
-				
-				FirefoxOptions firefoxOptions = new FirefoxOptions();
-				//if (Boolean.parseBoolean(prop.getProperty("headless"))) firefoxOptions.addArguments("--headless");
-				if (Boolean.parseBoolean(prop.getProperty("incognito"))) firefoxOptions.addArguments("--incognito");
-				
-				firefoxOptions.setBinary(forefoxBinary);				
-				
-				driver = new FirefoxDriver(firefoxOptions);
-				
+				//WebDriverManager.firefoxdriver().setup();					
+				driver = new FirefoxDriver(optionsManager.getFirefoxOptions());				
 				System.out.println("Firefox driver launched");				
 				break;	
 			
@@ -100,6 +87,44 @@ public class BrowserDriverFactory {
 		
 		return driver;		
 	}
+	
+	
+	
+	/*private void init_remoteDriver(String browser, String browserVersion) {
+
+		System.out.println("Running test on remote grid server: " + browser);
+		if (browser.equalsIgnoreCase("chrome")) {
+			//selenium 3.x
+			DesiredCapabilities cap = new DesiredCapabilities();
+//			cap.setBrowserName("chrome");
+			cap.setCapability("browserName", "chrome");
+			cap.setCapability("browserVersion", browserVersion);
+			cap.setCapability("enableVNC", true);
+			
+			cap.setCapability(ChromeOptions.CAPABILITY, optionsManager.getChromeOptions());
+			try {
+				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), cap));
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+		}
+
+		else if (browser.equalsIgnoreCase("firefox")) {
+			DesiredCapabilities cap = new DesiredCapabilities();
+			cap.setCapability("browserName", "firefox");
+			cap.setCapability("browserVersion", browserVersion);
+			cap.setCapability("enableVNC", true);			
+			cap.setCapability(FirefoxOptions.FIREFOX_OPTIONS, optionsManager.getFirefoxOptions());
+			cap.setAcceptInsecureCerts(true);
+			try {
+				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), cap));
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}*/
+	
 	
 	
 	public void launchApp() throws IOException {
