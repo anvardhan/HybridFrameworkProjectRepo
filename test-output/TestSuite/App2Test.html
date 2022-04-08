@@ -1,0 +1,183 @@
+<html>
+<head>
+<title>TestNG:  App2Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>App2Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 07 19:58:49 CDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>168 seconds (168040 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression sanity runall mandatory </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.FinologySelectTest.SelectProduct_validateBrokersCount()'><b>SelectProduct_validateBrokersCount</b><br>Test class: com.qa.tests.FinologySelectTest</td>
+<td></td>
+<td>8</td>
+<td>com.qa.tests.FinologySelectTest@5987e932</td></tr>
+<tr>
+<td title='com.qa.tests.FinologySelectTest.SelectProduct_validateSelectLogo()'><b>SelectProduct_validateSelectLogo</b><br>Test class: com.qa.tests.FinologySelectTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.tests.FinologySelectTest@5987e932</td></tr>
+<tr>
+<td title='com.qa.tests.FinologyLoginTest.finologyLoginByEmail_EmailTest()'><b>finologyLoginByEmail_EmailTest</b><br>Test class: com.qa.tests.FinologyLoginTest<br>Parameters: anvardhan551@gmail.com, Pnbe@305, iteration1<br/>
+<a href="#Output-113202956" onClick='toggleBox("Output-113202956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-113202956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-113202956">
+This isiteration1of this test<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.FinologyLoginTest@1e287667</td></tr>
+<tr>
+<td title='com.qa.tests.FinologyLoginTest.finologyLoginByEmail_EmailTest()'><b>finologyLoginByEmail_EmailTest</b><br>Test class: com.qa.tests.FinologyLoginTest<br>Parameters: 7799096333, Pnbe@305, iteration2<br/>
+<a href="#Output-444096469" onClick='toggleBox("Output-444096469", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-444096469" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-444096469">
+This isiteration2of this test<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.FinologyLoginTest@1e287667</td></tr>
+<tr>
+<td title='com.qa.tests.FinologyLoginTest.finologyLoginByEmail_EmailTest()'><b>finologyLoginByEmail_EmailTest</b><br>Test class: com.qa.tests.FinologyLoginTest<br>Parameters: anvardhan551@gmail.com, Pnbe@305, iteration1<br/>
+<a href="#Output-1005063886" onClick='toggleBox("Output-1005063886", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1005063886" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1005063886">
+This isiteration1of this test<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.FinologyLoginTest@1e287667</td></tr>
+<tr>
+<td title='com.qa.tests.FinologyLoginTest.finologyLoginByPhoneTest()'><b>finologyLoginByPhoneTest</b><br>Test class: com.qa.tests.FinologyLoginTest<br>Parameters: 7799096333, Pnbe@305</td>
+<td></td>
+<td>6</td>
+<td>com.qa.tests.FinologyLoginTest@1e287667</td></tr>
+<tr>
+<td title='com.qa.tests.FinologyHomeTest.selectProduct_validateSelectUrl()'><b>selectProduct_validateSelectUrl</b><br>Test class: com.qa.tests.FinologyHomeTest<br>Test method: This test is to validate Select App url</td>
+<td></td>
+<td>4</td>
+<td>com.qa.tests.FinologyHomeTest@25243bc1</td></tr>
+<tr>
+<td title='com.qa.tests.FinologyTickerTest.tickerProduct_getHighestPrice_Sector()'><b>tickerProduct_getHighestPrice_Sector</b><br>Test class: com.qa.tests.FinologyTickerTest</td>
+<td></td>
+<td>19</td>
+<td>com.qa.tests.FinologyTickerTest@1af05b03</td></tr>
+<tr>
+<td title='com.qa.tests.FinologyTickerTest.tickerProduct_getPriceForListedCompanies_Sector_Parameterized()'><b>tickerProduct_getPriceForListedCompanies_Sector_Parameterized</b><br>Test class: com.qa.tests.FinologyTickerTest</td>
+<td></td>
+<td>20</td>
+<td>com.qa.tests.FinologyTickerTest@1af05b03</td></tr>
+<tr>
+<td title='com.qa.tests.FinologyTickerTest.tickerProduct_validateTickerLogo()'><b>tickerProduct_validateTickerLogo</b><br>Test class: com.qa.tests.FinologyTickerTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.tests.FinologyTickerTest@1af05b03</td></tr>
+<tr>
+<td title='com.qa.tests.FinologyHomeTest.tickerProduct_validateTickerUrl()'><b>tickerProduct_validateTickerUrl</b><br>Test class: com.qa.tests.FinologyHomeTest<br>Test method: This test is to validate Ticker App url<br/>
+<a href="#Output-311765759" onClick='toggleBox("Output-311765759", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-311765759" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-311765759">
+This Test is to validate ticker App url which is a new window<br/>
+Pass - Finology Url is as expected<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.qa.tests.FinologyHomeTest@25243bc1</td></tr>
+<tr>
+<td title='com.qa.tests.FinologySelectTest.validateBrokerageRateAndAmount_Calculators()'><b>validateBrokerageRateAndAmount_Calculators</b><br>Test class: com.qa.tests.FinologySelectTest<br>Parameters: ICICIDirect Neo, 150, 12, 0.55</td>
+<td></td>
+<td>10</td>
+<td>com.qa.tests.FinologySelectTest@5987e932</td></tr>
+<tr>
+<td title='com.qa.tests.FinologySelectTest.validateBrokerageRateAndAmount_Calculators()'><b>validateBrokerageRateAndAmount_Calculators</b><br>Test class: com.qa.tests.FinologySelectTest<br>Parameters: Prime 1, 250, 200, 0.27</td>
+<td></td>
+<td>12</td>
+<td>com.qa.tests.FinologySelectTest@5987e932</td></tr>
+<tr>
+<td title='com.qa.tests.FinologySelectTest.validateBrokerageRateAndAmount_Calculators()'><b>validateBrokerageRateAndAmount_Calculators</b><br>Test class: com.qa.tests.FinologySelectTest<br>Parameters: Prepaid, 300, 220, 0.25</td>
+<td></td>
+<td>10</td>
+<td>com.qa.tests.FinologySelectTest@5987e932</td></tr>
+<tr>
+<td title='com.qa.tests.FinologySelectTest.validateBrokerageRateAndAmount_Calculators()'><b>validateBrokerageRateAndAmount_Calculators</b><br>Test class: com.qa.tests.FinologySelectTest<br>Parameters: Prime 4, 120, 300, 0.15</td>
+<td></td>
+<td>11</td>
+<td>com.qa.tests.FinologySelectTest@5987e932</td></tr>
+</table><p>
+</body>
+</html>
