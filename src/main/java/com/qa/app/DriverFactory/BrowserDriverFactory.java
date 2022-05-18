@@ -20,7 +20,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserDriverFactory {
 		
@@ -39,8 +39,8 @@ public class BrowserDriverFactory {
 		switch(browserName) {	
 		
 			case "chrome": 
-				//System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\browserdrivers\\chromedriver.exe");	
-				WebDriverManager.chromedriver().setup();					
+				System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\browserdrivers\\chromedriver.exe");	
+				//WebDriverManager.chromedriver().setup();					
 				driver = new ChromeDriver(optionsManager.getChromeOptions());				
 				System.out.println("Chrome driver launched");				
 				break;

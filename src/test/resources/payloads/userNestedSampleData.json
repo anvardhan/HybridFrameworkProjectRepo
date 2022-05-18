@@ -1,0 +1,16 @@
+{
+	"firstname": "Anand",
+	"lastname": "LASTNAME",
+	"professional": "Software Engineer",
+	"phone": "5463746574",
+	"status": "Active",
+	"available": true,
+	"address": {
+		"houseNo": 202,
+		"city": "CITY",
+		"state": "STATE",
+		"zip": 65898,
+		"country": "USA",
+		"street1": "86 Chicago dr"
+	}
+}
