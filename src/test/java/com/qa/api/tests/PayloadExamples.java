@@ -30,7 +30,7 @@ import pojo.UserData_pojoexample2;
 import pojo.Users;
 
 
-public class JsonPayloadExamples {
+public class PayloadExamples {
 
 	//Examples from below
 	//1 - Using POJO - https://www.youtube.com/watch?v=IRZuCxzXG1o&list=PL-a9eJ2NZlbT0Hoo_Hj43utwgq2VusPyN&index=48
@@ -233,10 +233,7 @@ public class JsonPayloadExamples {
 
 	}
 
-
-
 	//Example4 - Read simple json at run time and update content - use Jackson
-
 	@Test(enabled=false) 
 	public void createJsonPayload_ReadJsonAndUpdateValue() throws StreamWriteException, DatabindException, IOException {
 
@@ -299,7 +296,7 @@ public class JsonPayloadExamples {
 		}
 	}*/
 
-	@Test(enabled=true) 
+	@Test(enabled=false) 
 	public void createJsonPayload_ReadNestedJsonAndUpdateValue_withoutJacksonAPI() throws StreamWriteException, DatabindException, IOException {
 
 		//use JSON payload from sample File - Read sample json and replace variables during run time
@@ -308,25 +305,26 @@ public class JsonPayloadExamples {
 
 		String file = ".\\src\\test\\resources\\payloads\\userNestedSampleData.json";
 
-		String updatedJsonString;  
+		String sampleJsonString;  
 		// we use the get() method of Paths to get the file data  
 		// we use readAllBytes() method of Files to read byted data from the files  
-		updatedJsonString = new String(Files.readAllBytes(Paths.get(file)));  
-		//System.out.println(sampleJsonString);		
+		sampleJsonString = new String(Files.readAllBytes(Paths.get(file)));  
+		//System.out.println(sampleJsonString);	
+		
+		String updatedJsonString;
 		String lastName = "Vardhan";
 		String city = "Chicago";
 		String state = "Illinois";
 		
-		updatedJsonString = updatedJsonString.replace("LASTNAME", lastName).replace("CITY", city).replace("STATE", state);
+		updatedJsonString = sampleJsonString.replace("LASTNAME", lastName).replace("CITY", city).replace("STATE", state);
 		
 		System.out.println(updatedJsonString);
 		
-		updatedJsonString = new String(Files.readAllBytes(Paths.get(file)));
 		lastName = "Robert";
 		city = "Downers Grove";
 		state = "Illinois";
 		
-		updatedJsonString = updatedJsonString.replace("LASTNAME", lastName).replace("CITY", city).replace("STATE", state);
+		updatedJsonString = sampleJsonString.replace("LASTNAME", lastName).replace("CITY", city).replace("STATE", state);
 		
 		System.out.println(updatedJsonString);
 		
@@ -338,4 +336,30 @@ public class JsonPayloadExamples {
 
 
 	}
+
+
+	@Test(enabled=true)
+	public void ReadXmlUsingXmlFileAndUpdate() throws StreamWriteException, DatabindException, IOException {
+
+		String baseURI = "https://gorest.co.in";
+		String basePath = "/public/v1/users";
+		String userToken = "Bearer 58af3f196ef94f76a95ea35b155455129942a88b98c2f25a98129a2400589bbf";
+
+		//use XML payload from File
+
+		String file = ".\\src\\test\\resources\\payloads\\shipmentDetails_1.xml";	
+
+		String sampleXmlString; //get it from file object
+
+		sampleXmlString = new String(Files.readAllBytes(Paths.get(file))); 
+		
+		System.out.println(sampleXmlString);
+
+		String updatedXmlString = sampleXmlString.replace("ID", "101");
+
+		System.out.println(updatedXmlString);
+		
+
+	}
+
 }

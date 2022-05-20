@@ -310,17 +310,19 @@ public class PostCallAPITest {
 
 		String file = ".\\src\\test\\resources\\payloads\\userSampleCreate.json";	
 
-		String userUpdatedJson; //get it from file object
+		String sampleJsonString; //get it from file object
 
-		userUpdatedJson = new String(Files.readAllBytes(Paths.get(file))); 
+		sampleJsonString = new String(Files.readAllBytes(Paths.get(file))); 
+
+		String updatedUserJson;
 
 		String name = "Anand59";
 		String email = "anand59@gmail.com";		
-		userUpdatedJson = userUpdatedJson.replace("NAME", name).replace("EMAIL", email);
+		updatedUserJson = sampleJsonString.replace("NAME", name).replace("EMAIL", email);
 
 
 		//Post the request and get the response.
-		Response response = RestClient.postWebServiceCall(baseURI, basePath, userToken, null, userUpdatedJson, null, true);
+		Response response = RestClient.postWebServiceCall(baseURI, basePath, userToken, null, updatedUserJson, null, true);
 
 		//Validation-->
 		int statusCode = response.getStatusCode();
@@ -335,15 +337,14 @@ public class PostCallAPITest {
 
 
 		//Iteration2
-		userUpdatedJson = new String(Files.readAllBytes(Paths.get(file))); 
 
 		name = "Anand60";
 		email = "anand60@gmail.com";		
-		userUpdatedJson = userUpdatedJson.replace("NAME", name).replace("EMAIL", email);
+		updatedUserJson = sampleJsonString.replace("NAME", name).replace("EMAIL", email);
 
 
 		//Post the request and get the response.
-		response = RestClient.postWebServiceCall(baseURI, basePath, userToken, null, userUpdatedJson, null, true);
+		response = RestClient.postWebServiceCall(baseURI, basePath, userToken, null, updatedUserJson, null, true);
 
 		//Validation-->
 		statusCode = response.getStatusCode();
@@ -357,6 +358,13 @@ public class PostCallAPITest {
 		System.out.println(response.getBody().asString());
 
 	}
+
+
+	//Process XML response
+	// https://www.youtube.com/watch?v=F3hWv6PimB8
+
+
+	
 
 
 
