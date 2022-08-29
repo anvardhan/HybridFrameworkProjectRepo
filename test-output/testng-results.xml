@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="298" started-at="2022-05-20T00:25:13 CDT" finished-at="2022-05-20T00:25:13 CDT">
+  <suite name="Default suite" duration-ms="9319" started-at="2022-08-12T23:57:22 CDT" finished-at="2022-08-12T23:57:31 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="298" started-at="2022-05-20T00:25:13 CDT" finished-at="2022-05-20T00:25:13 CDT">
-      <class name="com.qa.api.tests.PayloadExamples">
-        <test-method status="PASS" signature="ReadXmlUsingXmlFileAndUpdate()[pri:0, instance:com.qa.api.tests.PayloadExamples@e27ba81]" name="ReadXmlUsingXmlFileAndUpdate" duration-ms="29" started-at="2022-05-20T00:25:13 CDT" finished-at="2022-05-20T00:25:13 CDT">
+    <test name="Default test" duration-ms="9319" started-at="2022-08-12T23:57:22 CDT" finished-at="2022-08-12T23:57:31 CDT">
+      <class name="com.qa.api.tests.PostCallAPITest">
+        <test-method status="PASS" signature="createUserTest_gorestAPI()[pri:0, instance:com.qa.api.tests.PostCallAPITest@65ef722a]" name="createUserTest_gorestAPI" duration-ms="8769" started-at="2022-08-12T23:57:22 CDT" finished-at="2022-08-12T23:57:31 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReadXmlUsingXmlFileAndUpdate -->
-      </class> <!-- com.qa.api.tests.PayloadExamples -->
+        </test-method> <!-- createUserTest_gorestAPI -->
+      </class> <!-- com.qa.api.tests.PostCallAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

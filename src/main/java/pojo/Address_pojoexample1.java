@@ -13,7 +13,7 @@ public class Address_pojoexample1 {
 	public Address_pojoexample1(int houseNo, String street1, String city, String state, int zip, String country) {
 		
 		this.houseNo = houseNo;
-		Street1 = street1;
+		this.Street1 = street1;
 		this.city = city;
 		this.state = state;
 		this.zip = zip;

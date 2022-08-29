@@ -335,7 +335,7 @@ public class RestClient {
 	}
 	
 	/**
-	 * This method returns user tokenID for ImagurApp - 2nd Approach
+	 * This method returns user tokenID for ImagurApp - 3rd Approach
 	 * @param clientId
 	 * @param clientSecret
 	 * @param grantType
